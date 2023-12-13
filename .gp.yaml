@@ -32,4 +32,6 @@ runbooks:
   selectors:
   - type: labelSelector
     selector: app=grafana
+  - type: labelSelector
+    selector: cluster-id=cbr9a7a2c67e39d7e465ee9ea7e80ddfc5ebd65
   doc: demo/runbook-4.md
