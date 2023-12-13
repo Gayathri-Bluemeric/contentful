@@ -63,3 +63,9 @@ runbooks:
   - type: labelSelector
     selector: app=grafana
   doc: demo/runbook-8.md
+- name: runbook-9
+  desc: runbook-9
+  selectors:
+  - type: labelSelector
+    selector: app=grafana
+  doc: demo/runbook-9.md
