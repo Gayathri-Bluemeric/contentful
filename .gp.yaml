@@ -36,4 +36,6 @@ runbooks:
     selector: cluster-id=cbr9a7a2c67e39d7e465ee9ea7e80ddfc5ebd65
   - type: labelSelector
     selector: component=grafana-servers
+  - type: labelSelector
+    selector: pod-template-hash=689cc5cbff
   doc: demo/runbook-4.md
