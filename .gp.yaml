@@ -1,0 +1,9 @@
+name: contentful-hub
+desc: contentful-hub
+runbooks:
+- name: contentful-runbook
+  desc: contentful-runbook
+  selectors:
+  - type: labelSelector
+    selector: app=demo
+  doc: contentful-runbook.md
